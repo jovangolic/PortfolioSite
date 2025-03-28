@@ -3,4 +3,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   base:'/PortfolioSite',
-  plugins: [re
+  plugins: [react()]
+ 
+});
