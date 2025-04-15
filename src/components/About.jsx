@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a self-taught and course-completed programmer skilled in Python, Java, and SQL, currently
+        I am a self-taught and course-completed programmer skilled in Python, Java,SQL,Docker, Docker Compose currently
         seeking an opportunity to enter the IT sector. I am driven to expand my knowledge in areas such as databases,
         big data, front-end and full-stack development, frameworks like React + Vite, cloud computing, and machine learning I am looking
         to join a company that values innovation, collaboration, and continuous learning and i am

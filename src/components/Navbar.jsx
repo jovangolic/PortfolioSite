@@ -8,9 +8,18 @@ const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
-  const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
+  /*const toggleResume = () => {
+    const resumeUrl = 'IT-JovanGolic.pdf';
     window.open(resumeUrl);
+  };*/
+  const toggleResume = () => {
+    const resumeUrl = import.meta.env.BASE_URL + 'IT-JovanGolic.pdf';
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'IT-JovanGolic.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   useEffect(() => {

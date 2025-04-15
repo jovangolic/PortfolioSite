@@ -8,6 +8,7 @@ import python from "./tech-stack/python.png";
 import java from "./tech-stack/java.png";
 import mysql from "./tech-stack/mysql.png";
 import sql from "./tech-stack/sql.png";
+import Docker from "./tech-stack/Docker.png";
 
 // Import project images
 import asteroids from "./projects/asteroids.png";
@@ -58,4 +59,5 @@ export {
   menu,
   close,
   eduskill,
+  Docker
 };

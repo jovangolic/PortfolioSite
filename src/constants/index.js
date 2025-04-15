@@ -17,6 +17,7 @@ import {
   threejs,
   cinemaApp,
   chatApp,
+  Docker
   
 } from "../assets";
 
@@ -39,7 +40,8 @@ export const services = [
   { title: "Python", icon: python },
   { title: "Java", icon: java },
   { title: "SQL", icon: sql},
-  { title: "MySQL", icon: mysql}
+  { title: "MySQL", icon: mysql},
+  {title:"Docker", icon:Docker}
 ];
 
 export const technologies = [
@@ -79,7 +81,7 @@ export const experiences = [
     company_name: "Ahold Delhaize Serbia ",
     
     iconBg: "#161329",
-    date: "Oct 2024 - present",
+    date: "Oct 2024 - April 2025",
     points: [
       "Working in storage, managing the goods, maintaing storage.",
     ],
@@ -122,9 +124,9 @@ export const projects = [
     source_code_link: "https://github.com/jovangolic/Project-Bank",
   },
   {
-    name: "Project-Hotel",
+    name: "Full-stack-hotel",
     description:
-      "Tool that allows user to book one or more rooms in a hotel",
+      "Dockerize tool that allows user to book one or more rooms in a hotel",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       {name: "Java", color: "blue-text-gradient"},
@@ -133,7 +135,7 @@ export const projects = [
       { name: "HTML", color: "pink-text-gradient" },
     ],
     image: services1,
-    source_code_link: "https://github.com/jovangolic/HotelApp",
+    source_code_link: "https://github.com/jovangolic/full-stack-hotel",
   },
   {
     name: "Project-Cinema",

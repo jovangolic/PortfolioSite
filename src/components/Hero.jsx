@@ -20,7 +20,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I do</p>
           <Typewriter
             options={{
-              strings: ["Java", "Python", "SQL"],
+              strings: ["Java", "Python", "SQL","Docker","Docker Compose"],
               autoStart: true,
               loop: true,
               loopCount: Infinity,
