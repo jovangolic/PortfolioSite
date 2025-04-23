@@ -13,10 +13,10 @@ const Navbar = () => {
     window.open(resumeUrl);
   };*/
   const toggleResume = () => {
-    const resumeUrl = import.meta.env.BASE_URL + 'IT-JovanGolic.pdf';
+    const resumeUrl = import.meta.env.BASE_URL + 'Updated.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'IT-JovanGolic.pdf';
+    link.download = 'Updated.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
