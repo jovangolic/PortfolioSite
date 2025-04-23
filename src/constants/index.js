@@ -150,7 +150,7 @@ export const projects = [
     ],
 
     image: cinemaApp,
-    source_code_link: "https://github.com/jovangolic/Project-Cinema",
+    source_code_link: "https://github.com/jovangolic/full-stack-cinema",
   },
   {
     name: "Project One-to-one-chat-app",
