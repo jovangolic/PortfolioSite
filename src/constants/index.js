@@ -173,7 +173,7 @@ export const projects = [
       {name:"Spring Security + JWT (HS512)",color:"blue-text-gradient"},
       {name:"MySQL",color:"blue-text-gradient"}
     ],
-    image:erpWarehouse,
+    image: erpWarehouse,
     source_code_link:"https://github.com/jovangolic/erp-v1",
   }
 ];
