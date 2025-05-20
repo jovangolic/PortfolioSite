@@ -162,5 +162,17 @@ export const projects = [
     ],
     image: chatApp,
     source_code_link: "https://github.com/jovangolic/Ono-to-one-chat-app",
+  },
+  {
+    name:"ERP-V1",
+    description:"This is the backend component of a modular ERP system tailored for micro, small, and medium-sized enterprises (MSMEs) to efficiently manage warehouse operations.",
+    tags:[
+      {name:"Java",color:"blue-text-gradient"},
+      {name:"SpringBoot",color: "blue-text-gradient"},
+      {name:"Spring Security + JWT (HS512)",color:"blue-text-gradient"},
+      {name:"MySQL",color:"blue-text-gradient"}
+    ],
+    image:erpWarehouse,
+    source_code_link:"https://github.com/jovangolic/erp-v1",
   }
 ];

@@ -17,6 +17,7 @@ import bankDashboard from "./projects/bankDashboard.jpg";
 import services1 from "./projects/services1.jpg";
 import cinemaApp from "./projects/cinemaApp.jpg";
 import chatApp from "./projects/chatApp.png";
+import erpWarehouse from "./projects/erpWarehouse.jpg";
 
 
 // Import tech logos
@@ -59,5 +60,6 @@ export {
   menu,
   close,
   eduskill,
-  Docker
+  Docker,
+  erpWarehouse
 };
