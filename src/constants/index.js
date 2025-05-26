@@ -166,7 +166,7 @@ export const projects = [
   },
   {
     name:"ERP-V1",
-    description:"This is the backend component of a modular ERP system tailored for micro, small, and medium-sized enterprises (MSMEs) to efficiently manage warehouse operations.",
+    description:"This is a backend system developed entirely from scratch to support small and medium-sized enterprises in managing warehouse operations. The system is based on a realistic workflow and currently includes over 20 domain classes.",
     tags:[
       {name:"Java",color:"blue-text-gradient"},
       {name:"SpringBoot",color: "blue-text-gradient"},
