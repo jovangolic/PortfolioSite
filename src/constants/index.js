@@ -18,6 +18,9 @@ import {
   cinemaApp,
   chatApp,
   Docker,
+  springBoot,
+  springBootFramework,
+  springBootMVC,
   erpWarehouse
   
 } from "../assets";
@@ -42,7 +45,10 @@ export const services = [
   { title: "Java", icon: java },
   { title: "SQL", icon: sql},
   { title: "MySQL", icon: mysql},
-  {title:"Docker", icon:Docker}
+  {title:"Docker", icon:Docker},
+  {title:"springBoot",icon:springBoot},
+  {title:"springBootFramework",icon:springBootFramework},
+  {title:"springBootMVC",icon: springBootMVC}
 ];
 
 export const technologies = [
@@ -165,8 +171,8 @@ export const projects = [
     source_code_link: "https://github.com/jovangolic/Ono-to-one-chat-app",
   },
   {
-    name:"ERP-V1",
-    description:"This is a backend system developed entirely from scratch to support small and medium-sized enterprises in managing warehouse operations. The system is based on a realistic workflow and currently includes over 20 domain classes.",
+    name:"ERP-V1 aka SLAM",
+    description:"SLAM (Storage, Logistics and Accounting Management) is a modular ERP backend system designed to address the operational needs of micro, small, and medium-sized enterprises (MSMEs) across three critical business domains: warehouse management, logistics coordination, and accounting control",
     tags:[
       {name:"Java",color:"blue-text-gradient"},
       {name:"SpringBoot",color: "blue-text-gradient"},

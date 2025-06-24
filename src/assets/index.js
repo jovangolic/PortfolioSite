@@ -9,6 +9,9 @@ import java from "./tech-stack/java.png";
 import mysql from "./tech-stack/mysql.png";
 import sql from "./tech-stack/sql.png";
 import Docker from "./tech-stack/Docker.png";
+import springBoot from "./tech-stack/springBoot.jpg";
+import springBootFramework from "./tech-stack/springBootFramework.png";
+import springBootMVC from "./tech-stack/springBootMVC.png";
 
 // Import project images
 import asteroids from "./projects/asteroids.png";
@@ -61,5 +64,8 @@ export {
   close,
   eduskill,
   Docker,
+  springBoot,
+  springBootFramework,
+  springBootMVC,
   erpWarehouse
 };
