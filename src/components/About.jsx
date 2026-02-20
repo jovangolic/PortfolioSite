@@ -45,10 +45,10 @@ const About = () => {
         I am driven to expand my knowledge in areas such as databases, big data, front-end and full-stack development, frameworks like React + Vite, 
         cloud computing, and machine learning. I am looking to join a company that values innovation, collaboration, and continuous learning, 
         and I am confident that my enthusiasm and drive will help me succeed in any role that leverages my passion for technology.
-        Currently, I am working on a self-initiated ERP software project called SLAM (Storage, Logistics, and Accounting Management), 
-        designed for micro, small, and medium-sized enterprises. The project is over 95% complete on the backend, developed with Spring Boot, REST APIs, JWT security,
-        and Docker-based testing, while the frontend is being built with React and Vite.
-        My goal with SLAM is to create a scalable, open-source ERP solution tailored to the real-world needs of growing businesses,
+        Currently working on a self-initiated ERP-AI platform for transportation, logistics, warehousing, resource management and Agro-AI, built with Spring Boot–based services,
+        secure REST APIs, and modular, cloud-ready architecture.My experience includes designing domain-driven systems, implementing authentication and authorization (JWT),
+        integrating analytics for operational insights, and working with real-world constraints such as incomplete data and evolving business processes. 
+        My goal with ERP-AI is to create a scalable, open-source ERP solution tailored to the real-world needs of growing businesses,
         especially in regions affected by disrupted supply chains. The project is fully documented on GitHub and serves as both a personal challenge and a professional showcase.
         <a href="https://github.com/jovangolic/erp-v1/wiki" target="_blank" rel="noopener noreferrer">
             Technical documentation link about the project

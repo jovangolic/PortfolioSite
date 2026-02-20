@@ -74,7 +74,17 @@ export const experiences = [
     ],
   },
   {
-    title: "Production worker",
+    title: "Worker",
+    company_name : "Sintelon/Tarkett",
+
+    iconBg: "#161329",
+    date: "2018 - 2019",
+    points: [
+      "Working in warehouse,doinh inventories,making track of goods and raw-materials"
+    ]
+  },
+  {
+    title: "Production",
     company_name: "DivTrades doo Backa Palanka",
     
     iconBg: "#161329",
@@ -84,7 +94,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Storage worker",
+    title: "Warehouse",
     company_name: "Ahold Delhaize Serbia ",
     
     iconBg: "#161329",
@@ -93,6 +103,20 @@ export const experiences = [
       "Working in storage, managing the goods, maintaing storage.",
     ],
   },
+  {
+    title: "Software Engineer – ERP-AI Platform (Self-initiated project)",
+    company_name: "Industrial AI Technologies DOO",
+
+    iconBg: "#161329",
+    date: "May 1 2025 - present",
+    points: [
+      "Designed and implemented backend services using Spring Boot",
+      "Modeled logistics,transportation, production,warehouse and agriculture workflows based on real operational scenarios",
+      "Built authentication and authorization using JWT",
+      "Developed modular architecture suitable for scaling and future service separation",
+      "Collaborated with domain experts from logistics and public-utility contexts"
+    ]
+  }
 ];
 
 export const projects = [
@@ -171,8 +195,8 @@ export const projects = [
     source_code_link: "https://github.com/jovangolic/Ono-to-one-chat-app",
   },
   {
-    name:"ERP-V1 aka SLAM",
-    description:"SLAM (Storage, Logistics and Accounting Management) is a modular ERP backend system designed to address the operational needs of micro, small, and medium-sized enterprises (MSMEs) across three critical business domains: warehouse management, logistics coordination, and accounting control",
+    name:"ERP-AI Platform",
+    description:"ERP-AI platform for transportation, logistics, warehousing, resource management and Agro-AI, built with Spring Boot–based services, secure REST APIs, and modular, cloud-ready architecture.  ",
     tags:[
       {name:"Java",color:"blue-text-gradient"},
       {name:"SpringBoot",color: "blue-text-gradient"},
