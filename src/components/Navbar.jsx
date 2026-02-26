@@ -13,10 +13,10 @@ const Navbar = () => {
     window.open(resumeUrl);
   };*/
   const toggleResume = () => {
-    const resumeUrl = import.meta.env.BASE_URL + 'IT2.pdf';
+    const resumeUrl = import.meta.env.BASE_URL + 'IT3.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'IT2.pdf';
+    link.download = 'IT3.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
